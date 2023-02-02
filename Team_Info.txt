@@ -1,4 +1,12 @@
-Preston Feagan preston.feagan@enmu.edu Pfeagan8@gmail.com
-Skyler Landess skyler.landess@enmu.edu 
-German Ramirez german.ramirez21@gmail.com
-Antonio Aldaz antonio.aldaz@enmu.edu
+#Preston Feagan 
+preston.feagan@enmu.edu Pfeagan8@gmail.com
+
+#Skyler Landess 
+skyler.landess@enmu.edu 
+
+#German Ramirez 
+german.ramirez21@gmail.com
+ramirezgerman
+
+#Antonio Aldaz 
+antonio.aldaz@enmu.edu
