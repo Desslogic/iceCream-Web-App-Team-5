@@ -1,0 +1,35 @@
+:root { 
+  --aero-blue: #bbffd7e8;
+  --black: #000000;
+  --chateau-green: #27ae60;
+  --cloud-burst: #192a56;
+  --cloud-burst-2: #1b2c57;
+  --fiord: #3d4866;
+  --gallery: #eeeeee;
+  --mercury: #e5e7eb;
+  --white: #ffffff;
+ 
+  --font-size-l: 12px;
+  --font-size-m: 10px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 16px;
+  --font-size-xxxl: 24px;
+  --font-size-xxxxl: 32px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-semi-bold-cloud-burst-10px {
+  color: var(--cloud-burst-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-aero-blue-14px {
+  color: var(--aero-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
