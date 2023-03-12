@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'iran_sans_bold';
+    src: url('iran_sans_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iran_sans_light';
+    src: url('iran_sans_light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iran_sans_medi';
+    src: url('iran_sans_medi.woff') format('woff');
+}
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+*{
+    font-family:iran_sans_light;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+header .logo{
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+header .logo i{
+    color: var(--green);
+}
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+}
+header .navbar a.active,
+header .navbar a:hover{
+    color: #fff;
+    background: var(--green);
+}
+header .icons i,header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: 50%;
+    background: #eee;
+}
+header .icons #bars{
+    display: none;
+}
+
+.Add
+{
+    color:rgba(27, 44, 87, 1);
+    background-color: rgba(47,59,64,0.35);
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+    font-weight: 200;
+    font-size: 16px;
+    width:500px;
+    margin:100px auto auto auto;
+    padding:20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.Add li{
+    list-style-type:none;
+}
+.Add #add{
+    color:#27ae60;
+    margin: auto auto auto 300px;
+   background-color: rgba(61, 72, 102, 1);
+   box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+   font-weight: 800;
+   font-size: 18px;
+   padding:5px 30px 5px 30px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+#name, #img, #price, #description
+{
+    background-color: rgba(187, 255, 215, 0.91);
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+    border-radius: 5px;
+}
+/*end of add product*/
+
+.dishes{
+    padding: 40px;
+    margin:auto;
+}
+.box-container{
+    text-align: center;
+    background-color:white;
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+    width: 300px;
+    height: 300px;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+}
+.box #text{
+    color:rgba(27, 44, 87, 1);
+    background-color: rgba(47,59,64,0.35);
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    padding:10px;
+}
+
+.box #text h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+.box #text span{
+    font-weight: 100;
+    font-size: 18px;
+}
+.box p{
+    font-weight: 100;
+    font-size: 16px;
+}
+#del{
+    margin-top: 5px;
+    margin-right:5px;
+    position:relative;
+    float:right;
+    color:#27ae60;
+    background-color: rgba(61, 72, 102, 1);
+    box-shadow:1px 1px 1px 1px rgba(47,59,64,0.35);
+    font-weight: 800;
+    font-size: 18px;
+    padding:5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+input#del:hover{
+    background-color: #27ae60;
+    color: rgba(61, 72, 102, 1);
+}
+input#add:hover{
+    background-color: #27ae60;
+    color: rgba(61, 72, 102, 1);
+}
+/* end of add products */
+.orders
+{
+    color:rgba(27, 44, 87, 1);
+    background-color: rgba(47,59,64,0.35);
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+    font-weight: 200;
+    font-size: 16px;
+    width:500px;
+    margin:100px auto auto auto;
+    padding:20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.orders li{
+    list-style-type:none;
+}
+#customer, #id
+{
+    background-color: rgba(187, 255, 215, 0.91);
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+    border-radius: 5px;
+}
+.orders #lookUp{
+    color:#27ae60;
+    margin: auto auto auto 300px;
+   background-color: rgba(61, 72, 102, 1);
+   box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+   font-weight: 800;
+   font-size: 18px;
+   padding:5px 30px 5px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+input#lookUp:hover{
+    background-color: #27ae60;
+    color: rgba(61, 72, 102, 1);
+}
+.all-orders{
+    padding: 50px;
+    padding-bottom: 100px;
+    margin:30px;
+}
+.order-container{
+    margin-top: 20px;
+    text-align: center;
+    color:rgba(27, 44, 87, 1);
+    background-color: rgba(47,59,64,0.35);
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(47,59,64,0.35);
+    width: 200px;
+    height: 50px;
+}
+.order-box #text h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+.order-box #text span{
+    font-weight: 100;
+    font-size: 18px;
+}
