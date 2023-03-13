@@ -4,7 +4,6 @@ German Ramirez-ramirezgerman
 	
 Skyler Landess-Desslogic
 	Created the Management login in page and the Checkout page.
-	Created the github.io
 	
 Preston Feagan-Wildboyz997
 	Created the manage products and orders page.
